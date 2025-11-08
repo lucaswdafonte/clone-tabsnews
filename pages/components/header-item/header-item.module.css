@@ -1,0 +1,11 @@
+.headerItemContainer {
+  padding: 5px;
+  border: 1px solid gray;
+  min-width: 100px;
+  text-align: center;
+}
+
+.headerItemLink {
+  color: black;
+  text-decoration: none;
+}
