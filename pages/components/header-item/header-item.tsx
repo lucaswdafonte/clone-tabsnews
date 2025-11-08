@@ -8,7 +8,7 @@ interface HeaderItemProps {
 
 export default function HeaderItem({ title, href }: HeaderItemProps): JSX.Element {
   return (
-    <li className={styles.headerItemContainer}>
+    <li>
       <a href={href} className={styles.headerItemLink}>
         {title}
       </a>
